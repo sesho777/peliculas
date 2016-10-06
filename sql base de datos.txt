@@ -1,0 +1,38 @@
+
+use peliculas25;
+
+create table usuarios
+
+(
+idUsuario int unsigned auto_increment primary key not null,
+
+nombre varchar(255),
+
+apellido varchar(255),
+
+fechaNacimiento date,
+
+sexo varchar(255),
+
+nacionalidad varchar(255),
+
+email varchar(255),
+
+usuario varchar(255),
+
+pass varchar(255)
+
+)
+
+create table peliculas 
+( 
+idMovie int unsigned auto_increment primary key not null,
+ titulo varchar(255),
+ genero varchar(255),
+ año int, 
+estreno varchar(255),
+ imagen mediumblob,
+ url varchar(255),
+ youtube varchar(255)
+  )	
+
