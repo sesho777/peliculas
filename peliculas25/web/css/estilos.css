@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+}
+
+.navbar-brand{
+    color:white!important
+}
+.glyphicon-film{
+    color:white;
+}
+.dropdown-menu{
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+
+}
+.dropdown-menu li a:hover {
+    background-color: black;
+    color:white
+}
+.glyphicon-search{
+    color:white!important;  
+    font-size: 1.2em;
+}
+#busqueda{
+    border-radius: 10px;
+    color:black;
+    
+}/***** end navbar css *****/
+.container h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    position:relative
+}
+.container-fluid h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    position:relative
+}
+
+
+.table, thead, tbody, th, td{
+    border:none!important
+        
+}
+.table th{
+    border-bottom:1px solid white!important;
+}
+.table td{
+    line-height: 1px;
+}
+.img{
+    border:white 3px solid;
+}
+.resultadoNegBusqueda{
+    color:white; 
+    margin:10%;
+    text-align: center; 
+    font-size: 5em;
+}
+.resultadoNegBusqueda2{
+    color:white;
+    margin-top:0;
+    text-align: center;
+    font-size:10em;
+    width: 20%;
+    border:10px white solid;
+    border-radius: 10%
+}
+@media (max-width: 480px) { 
+    .container h1, .container-fluid h1{
+        font-size:1.4em;        
+    }
+    #myNavbar{
+        width:50%;
+    }
+    .resultadoNegBusqueda{
+          font-size:1.4em;
+    }
+    .resultadoNegBusqueda2{
+          font-size:1.4em;
+    }
+}
+#footer th{  
+      border:none!important
+}
+#footer .btn  {  
+     width:content-box;
+     background-color: grey;
+     border-radius: 100%;    
+}
+#footer .fa-facebook  {  
+       padding-left: 10px    
+}
+#footer .btn-facebook{
+    background-color:#8b9dc3;
+    color:white;
+    transition: ease-in 0.2s   
+}
+#footer .btn-twitter{
+    background-color:#55acee;
+        color:white;
+    transition: ease-in 0.2s   
+}
+#footer .btn:hover  {  
+      transform: scale(1.2)
+}
+#footer .btn-twitter  {  
+       margin-right:5%;
+       margin-left: 40%;
+}
+#footer{  
+        
+      background-color: #333333;
+      font-size: 1.2em;
+}
+#footer{  
+      color:white;     
+}
+#footer p{  
+      margin-top:5%;  
+}
+/***** end index.jsp css *****/
+#bodyLogin{
+    background-image: url(../img/cine2.png);
+    background-size: cover;
+    max-height:100%;
+    height:auto;
+    color:white
+}
+#loginForm{
+    margin-top: 10%;
+    font-size: 1.3em;
+}
+#loginForm div{
+    margin-right: 10%;
+    margin-left: 38%;
+    width:24%
+}
+#registrate a{
+    color:lightskyblue;
+    margin-right: 2px;    
+}
+#resp{
+    font-size: 1em;
+    text-align: center;
+    font-weight:bold;
+    color:red;
+    border:2px solid red;
+    background-color: #ffcccc;
+    border-radius: 5px;
+    margin-top:8%;
+    
+}/***fin login css**/
+#bodyRegistro{
+    background-color: white;
+    color:black
+}/***fin registro css**/
+#contenedorMiCuenta{
+    color:white;
+    font-size: 2em;
+    margin:5%
+}
+#contenedorMiCuenta input{
+    color:black;
+}
+#contenedorMiCuenta span{
+    color:green;
+}/***fin miCuenta css**/
+
+#bodyResultado table {  
+    margin-left:10%;
+    max-width: 100%;
+    min-width: 50%;
+    width:auto;
+       
+}
+#bodyResultado table tr td img{  
+    width:50%;
+    display:inline;
+    margin-bottom: 2%;
+    border: 3px solid white;
+    border-radius:10px
+}
+#bodyResultado table tr td span {  
+    color:white;
+    vertical-align: top;
+}
+#bodyResultado table tr td hr{
+    width: 50%;
+    float:left;
+}/***fin resultadoBusqueda css**/
+#contenedor2 .table,#contenedor2 thead,#contenedor2 tbody,#contenedor2 td{
+    color:white;
+    border:2px solid white!important;
+}
+#contenedor2 .table th,#contenedor2 {
+    text-align: center;
+    font-size: 1.2em;
+}/***fin modificarDatosPelicula.jsp css**/
+#contenedorModificarPel{
+    color:white;
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+#contenedorModificarPel span{
+    color:green;    
+}
+#contenedorModificarPel input{
+    color:black;    
+}/***fin modificarPel.jsp css**/
+
+#tablaPeliculas{
+    color:white;
+    margin-left: 5%;
+    margin-top:8%;
+}
+#tablaPeliculas tr{
+    width:100%;
+    height:100%;
+}
+#tablaPeliculas td{
+    width:50%;
+    height:50%;
+}/***fin modificarPel.jsp css**/
+
+#bodyEstrenos table {  
+    margin-left:10%;
+    max-width: 100%;
+    min-width: 50%;
+    width:auto;
+       
+}
+#bodyEstrenos table tr td img{
+    min-width: 20%;
+    max-width:30%;
+    width:auto;
+    display:inline;
+    margin-bottom: 2%;
+    border: 3px solid white;
+    border-radius:10px
+}
+#bodyEstrenos table tr td span {  
+    color:white;
+    vertical-align: top;
+}
+#bodyEstrenos table tr td hr{
+    min-width: 30%;
+    max-width:50%;
+    width:auto;
+    float:left;
+}/***fin modificarPel.jsp css**/
+
+#loginForm2{
+    margin-top: 12%;
+    font-size: 1.3em;
+    color:white;
+}
+#loginForm2 div{
+    margin-left:35%;
+    margin-bottom: 2%;
+    width:20%
+}
+#loginForm2 select{
+   color:black;
+}
+#loginForm2 input{
+   color:black;
+}
+
